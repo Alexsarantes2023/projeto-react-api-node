@@ -1,0 +1,26 @@
+ criando um package json
+npm init -y    //cria um package.json
+
+node index.js   //roda o script index.js
+
+npm run dev //rodar pelo nome do script que esta dentro do package.js
+
+npm install typescript     // instala a biblioteca  typescript para outras plataformas
+npm install -D @type/typescript   //instalando o typescript
+
+npx tsc --init   // criando o arquivo tsconfig.json 
+
+//configurando o tsconfig.json
+"rootDir": "./src",
+ "outDir": "./build",
+
+
+//tsc cria a pasta build trancripta o index.js
+npx tsc
+
+node ./build/index.js  //rodando js na pasta build
+
+
+
+
+
