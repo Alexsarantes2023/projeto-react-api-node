@@ -21,6 +21,18 @@ npx tsc
 node ./build/index.js  //rodando js na pasta build
 
 
+https://randomuser.me/api/
 
 
+npm install express  //instalando o express para criação de api´s
 
+npm install @types/express -D     //instalando o express para typescript
+npm install -D @types/express
+
+npm install cors  //auxilia o express
+npm install @types/cors -D 
+npm install -D @types/cors 
+
+npm install ts-node-dev -D  //transpila automaticamente o typescript
+
+npm run dev   // roda o dev pelo script no packge.json que automaticamente sera transpilado
